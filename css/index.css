@@ -1,1 +1,263 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-size: 62.5%;
+  font-family: "indie flower", cursive;
+}
+body {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.container {
+  font-size: 2rem;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 4%;
+}
+header {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+  padding: 40px 4%;
+  text-align: center;
+}
+header nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+header h1,
+header button {
+  margin: 35px 0;
+}
+header h1 {
+  font-size: 4rem;
+  font-weight: 850;
+}
+header p {
+  font-size: 2.4rem;
+}
+header button {
+  background: none;
+  background-color: lightgray;
+  color: #661b1b;
+  border: 1px solid black;
+  height: 40px;
+  width: 150px;
+  border-radius: 4px;
+}
+header .header-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .card .content {
+  width: 100%;
+  padding: 10em;
+  position: relative;
+  background-size: cover;
+}
+header .card {
+  background-color: lightgray;
+  padding: 2em;
+}
+header .card {
+  position: absolute;
+  top: 2em;
+  right: 2em;
+  bottom: 2em;
+  left: 2em;
+  border: 3px solid black;
+}
+header .card {
+  font-size: 2rem;
+}
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  height: 50vw;
+  max-height: 675px;
+}
+.about-container .about-info {
+  padding-left: 7%;
+  line-height: 1.5;
+  max-height: 100%;
+}
+.about-container .about-info h2 {
+  font-size: calc(26px + (36 - 26) * ((100vw - 500px) / (1900 - 500)));
+  margin-bottom: 35px;
+}
+.about-container .about-info p {
+  font-size: calc(20px + (30 - 20) * ((100vw - 500px) / (1900 - 500)));
+}
+.history {
+  margin: 30px 0;
+}
+.history h2 {
+  font-size: 2.1rem;
+  font-weight: 850;
+  margin-bottom: 10px;
+}
+.history table {
+  width: 100%;
+  text-align: left;
+  border-top: 1px solid black;
+}
+.history table .list {
+  font-weight: 800;
+}
+.history table th {
+  font-weight: 800;
+}
+.history table td,
+.history table th {
+  width: 25%;
+}
+.history table td:nth-child(1),
+.history table th:nth-child(1) {
+  width: 25%;
+}
+.history table tr {
+  height: 55px;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+.history table tr:nth-of-type(even) {
+  background-color: lightgray;
+}
