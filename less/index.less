@@ -141,6 +141,10 @@ body {
   font-family: "indie flower", cursive;
 }
 // mixins //
+.centerme {
+  display: flex;
+  justify-content: center;
+}
 
 //variable//
 @back: lightgray;
@@ -167,6 +171,7 @@ nav {
   display: flex;
   justify-content: center;
   width: 100%;
+
   a {
     color: @bright;
     padding: 15px 2%;
@@ -233,6 +238,7 @@ button {
 .contact {
   display: flex;
   justify-content: flex-start;
+  align-items: flex-start;
 
   h3 {
     font-size: 5rem;
@@ -240,6 +246,7 @@ button {
   p {
     display: flex;
     font-size: 1.5rem;
+    margin-left: 25px;
   }
 }
 

@@ -136,6 +136,10 @@ body {
   font-size: 62.5%;
   font-family: "indie flower", cursive;
 }
+.centerme {
+  display: flex;
+  justify-content: center;
+}
 body {
   width: 90%;
   max-width: 900px;
@@ -216,6 +220,7 @@ button {
 .contact {
   display: flex;
   justify-content: flex-start;
+  align-items: flex-start;
 }
 .contact h3 {
   font-size: 5rem;
@@ -223,6 +228,7 @@ button {
 .contact p {
   display: flex;
   font-size: 1.5rem;
+  margin-left: 25px;
 }
 footer {
   display: flex;
