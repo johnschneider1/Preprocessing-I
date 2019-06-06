@@ -140,9 +140,9 @@ body {
   font-size: 62.5%;
   font-family: "indie flower", cursive;
 }
-// variables //
+// mixins //
 
-//mixins//
+//variable//
 @back: lightgray;
 @main: black;
 @bright: green;
@@ -154,17 +154,25 @@ body {
 }
 .container {
   font-size: 2rem;
+  @media (max-width: 800px) {
+    width: 100%;
+  }
+
+  @media (max-width: 500px) {
+    width: 100%;
+  }
 }
 
 nav {
   display: flex;
   justify-content: center;
   width: 100%;
+  a {
+    color: @bright;
+    padding: 15px 2%;
+  }
 }
-a {
-  color: @bright;
-  padding: 15px 2%;
-}
+
 header {
   background-color: @back;
   display: flex;

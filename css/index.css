@@ -144,12 +144,22 @@ body {
 .container {
   font-size: 2rem;
 }
+@media (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
+}
 nav {
   display: flex;
   justify-content: center;
   width: 100%;
 }
-a {
+nav a {
   color: green;
   padding: 15px 2%;
 }
