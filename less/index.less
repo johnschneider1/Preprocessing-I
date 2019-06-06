@@ -173,8 +173,12 @@ nav {
   width: 100%;
 
   a {
-    color: @bright;
+    color: black;
     padding: 15px 2%;
+
+    &:hover {
+      color: lighten(@bright, 65%);
+    }
   }
 }
 
