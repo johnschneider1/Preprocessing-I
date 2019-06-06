@@ -144,3 +144,79 @@ body {
 .container {
   font-size: 2rem;
 }
+nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+a {
+  color: green;
+  padding: 15px 2%;
+}
+header {
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 35px 2%;
+}
+header h1,
+header p,
+header button {
+  margin: 25px 0;
+}
+header h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+p {
+  font-size: 3rem;
+}
+button {
+  background-color: green;
+  background: none;
+  border: 2px solid black;
+  height: 30px;
+  width: 125px;
+  border-radius: 3px;
+}
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.about-container h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 30px 30px;
+}
+.about-container p {
+  font-size: 3rem;
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px 30px;
+}
+.about-container .about-info {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+}
+.contact {
+  display: flex;
+  justify-content: flex-start;
+}
+.contact h3 {
+  font-size: 5rem;
+}
+.contact p {
+  display: flex;
+  font-size: 1.5rem;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 20px;
+  font-size: 1.75rem;
+}
